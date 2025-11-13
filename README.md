@@ -1,2 +1,2 @@
 # netapp-instaclustr
-Repo for all projects related to NetApp Instaclustr
+This contains samples created to help demonstrate various functions for the NetApp Instaclustr platform.
