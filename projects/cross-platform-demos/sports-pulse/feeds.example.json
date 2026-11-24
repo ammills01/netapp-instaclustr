@@ -1,0 +1,50 @@
+[
+  {
+    "sport": "american_football",
+    "source": "ESPN NFL",
+    "url": "https://www.espn.com/espn/rss/nfl/news",
+    "enabled": false
+  },
+  {
+    "sport": "american_football",
+    "source": "ESPN College Football",
+    "url": "https://www.espn.com/espn/rss/ncf/news",
+    "enabled": false
+  },
+  {
+    "sport": "soccer",
+    "source": "BBC Football",
+    "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "enabled": false
+  },
+  {
+    "sport": "soccer",
+    "source": "Guardian Football",
+    "url": "https://www.theguardian.com/football/rss",
+    "enabled": false
+  },
+  {
+    "sport": "cricket",
+    "source": "BBC Cricket",
+    "url": "https://feeds.bbci.co.uk/sport/cricket/rss.xml",
+    "enabled": false
+  },
+  {
+    "sport": "cricket",
+    "source": "Guardian Cricket",
+    "url": "https://www.theguardian.com/sport/cricket/rss",
+    "enabled": false
+  },
+  {
+    "sport": "baseball",
+    "source": "ESPN MLB",
+    "url": "https://www.espn.com/espn/rss/mlb/news",
+    "enabled": false
+  },
+  {
+    "sport": "basketball",
+    "source": "ESPN NBA",
+    "url": "https://www.espn.com/espn/rss/nba/news",
+    "enabled": false
+  }
+]

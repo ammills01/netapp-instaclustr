@@ -1,0 +1,2 @@
+# X (Twitter) source — optional
+Use official X API recent search or filtered stream: https://docs.x.com/x-api/posts/search/introduction . Confirm entitlement, billing, rate limits and aggregate-use/redisplay terms. Define approved sport-specific queries, language and region scope; maintain source_type=x separately; honor deletion and retention rules. Store token at runtime. No unofficial RSS scraping, no live adapter deployed.

@@ -8,7 +8,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from build_catalog import load_catalog
 
 data=load_catalog()
-with psycopg.connect(os.environ["DATABASE_URL"],sslmode="verify-full",
+with psycopg.connect(os.environ["DATABASE_URL"],sslmode="verify-full",target_session_attrs="read-write",
                      sslrootcert=os.environ["PGSSLROOTCERT"],connect_timeout=5) as conn:
     with conn.cursor() as cur:
         cur.execute("""INSERT INTO platform_hub.catalog(singleton,document)

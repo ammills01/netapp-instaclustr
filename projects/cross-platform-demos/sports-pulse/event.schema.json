@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "event_id",
+    "sport",
+    "source",
+    "source_type",
+    "title",
+    "url",
+    "published_at",
+    "observed_at",
+    "timestamp_basis"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "sport": {
+      "enum": [
+        "american_football",
+        "soccer",
+        "cricket",
+        "baseball",
+        "basketball"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_type": {
+      "enum": [
+        "rss",
+        "x",
+        "synthetic"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timestamp_basis": {
+      "enum": [
+        "published",
+        "observed"
+      ]
+    }
+  }
+}

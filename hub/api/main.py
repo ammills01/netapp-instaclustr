@@ -12,7 +12,7 @@ log=logging.getLogger("hub")
 
 def read_catalog():
     try:
-        with closing(psycopg.connect(os.environ["DATABASE_URL"],sslmode="verify-full",
+        with closing(psycopg.connect(os.environ["DATABASE_URL"],sslmode="verify-full",target_session_attrs="primary",
                      sslrootcert=os.environ["PGSSLROOTCERT"],connect_timeout=5,
                      options="-c statement_timeout=5000 -c default_transaction_read_only=on")) as conn:
             with conn.cursor() as cur:

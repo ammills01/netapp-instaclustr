@@ -1,0 +1,2 @@
+# Planned live API
+GET /api/sports/trends?sport=soccer&window=1h&source=rss returns as_of UTC, window, source, sport, terms [{term,count}], unique_items, source_count. Counts are unique items mentioning a term, not impressions or sentiment. Enforce enumerated dimensions, fixed time windows, parameterized SQL, caching, rate limits, freshness and approved aggregate output. Compare current and previous equal-length windows with source-volume normalization for acceleration. Static sample intentionally calls no unconfigured endpoint.
