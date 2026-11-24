@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+!*.env.example
+private/
+*.pem
+*.key
+*.p12
+*.jks
+*.pgpass
+*.license
+*.lic
+__pycache__/
+.venv/

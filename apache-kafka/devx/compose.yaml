@@ -1,0 +1,17 @@
+# Local-only templates; set approved image versions/digests in ignored .env.
+services:
+  akhq:
+    profiles: [akhq]
+    image: "${AKHQ_IMAGE:-tchiotludo/akhq:latest}"
+    ports: ["127.0.0.1:8081:8080"]
+    volumes: ["./private/akhq.yml:/app/application.yml:ro"]
+  kafbat:
+    profiles: [kafbat]
+    image: "${KAFBAT_IMAGE:-ghcr.io/kafbat/kafka-ui:latest}"
+    ports: ["127.0.0.1:8082:8080"]
+    env_file: ./private/kafbat.env
+  kpow:
+    profiles: [kpow]
+    image: "${KPOW_IMAGE:-factorhouse/kpow:latest}"
+    ports: ["127.0.0.1:3000:3000"]
+    env_file: ./private/kpow.env

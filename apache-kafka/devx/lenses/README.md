@@ -1,0 +1,2 @@
+# Lenses
+Follow the licensed HQ/Agent instructions matching the selected version: https://docs.lenses.io/latest/getting-started/connecting-lenses-to-your-environment/overview . Keep vendor manifests with placeholders here and real settings in private/ or a secret manager. Provision a separate PostgreSQL database and role if required. Connect the agent using TLS and scoped Kafka ACLs. Enable SSO/RBAC and test access before publishing an HTTPS login URL.

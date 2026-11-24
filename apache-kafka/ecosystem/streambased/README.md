@@ -1,0 +1,2 @@
+# Streambased
+See https://streambased.io/product/isk/ and https://docs.streambased.io/what-is-streambased . Obtain the appropriate entitlement and deploy the vendor-approved Iceberg Service for Kafka (I.S.K.) or Analytics Service for Kafka (A.S.K.). Configure TLS and scoped read access privately. Connect a supported SQL engine or Iceberg client. Demonstrate topic-to-table mapping and queries on synthetic orders. Publish only an authenticated query workspace URL. No unverified images or license settings are assumed.

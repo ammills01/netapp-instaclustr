@@ -1,0 +1,12 @@
+services:
+  catalog-api:
+    build: .
+    env_file: .env
+    ports: ["127.0.0.1:8000:8000"]
+    volumes:
+      - ./private/postgres-ca.pem:/run/certs/postgres-ca.pem:ro
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
