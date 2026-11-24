@@ -1,0 +1,28 @@
+# Runtime credentials and local deployments
+.env
+.env.*
+!.env.example
+!*.env.example
+private/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.pgpass
+*.lic
+*.license
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+.terraform/
+*.tfplan
+__pycache__/
+.venv/
+node_modules/
+.DS_Store
+# Raw dashboard exports must be reviewed before being committed
+projects/grafana/imports/incoming/

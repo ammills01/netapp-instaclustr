@@ -1,0 +1,50 @@
+{
+  "slug": "mcp-gateway",
+  "name": "MCP Gateway",
+  "abbr": "MCP",
+  "kind": "AI connectivity",
+  "summary": "An evolving gateway project for governed access to tools and data. Public information only.",
+  "tools": [
+    {
+      "slug": "inspector",
+      "name": "MCP Inspector",
+      "kind": "Developer tools",
+      "website_url": "https://github.com/modelcontextprotocol/inspector",
+      "walkthrough": "Validate protocol discovery and tool calls against an authorized test endpoint.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "typescript-sdk",
+      "name": "MCP TypeScript SDK",
+      "kind": "SDK",
+      "website_url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "walkthrough": "Build a test client or synthetic MCP server.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "python-sdk",
+      "name": "MCP Python SDK",
+      "kind": "SDK",
+      "website_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "walkthrough": "Build a test client and validate tool schemas.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "protocol",
+      "name": "MCP specification",
+      "kind": "Reference",
+      "website_url": "https://modelcontextprotocol.io/",
+      "walkthrough": "Review transport, authentication and tool discovery requirements.",
+      "license": "reference",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "in-development"
+}

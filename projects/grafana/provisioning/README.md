@@ -1,0 +1,2 @@
+# Grafana provisioning
+Use version-compatible provisioning: https://grafana.com/docs/grafana/latest/administration/provisioning/ . Mount sanitized dashboard JSON in the provider path, set PROMETHEUS_URL privately, and configure any datasource authentication via secret injection. Rename reviewed example YAML to active provisioning filenames locally. Validate imports, datasource UIDs, queries and access controls. No Grafana instance is deployed.

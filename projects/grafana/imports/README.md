@@ -1,0 +1,2 @@
+# Existing dashboard intake
+Grafana normally imports dashboard JSON, not generic XML. The user's existing XML files have not been supplied. Put unreviewed files in the ignored incoming/ folder locally. Inspect root element and source application/version; convert only after understanding their schema. Redact customer names, UIDs that disclose private resources, credentials, internal hosts and embedded links. Commit approved sanitized examples only. Store import-ready Grafana JSON under ../dashboards/<technology>/.

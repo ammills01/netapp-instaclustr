@@ -1,100 +1,482 @@
-[
-  {
-    "slug": "kpow",
-    "name": "Factor House — Kpow",
-    "category": "commercial",
-    "edition": "Commercial",
-    "icon": "KP",
-    "website_url": "https://factorhouse.io/",
-    "docs_url": "https://docs.factorhouse.io/kpow/provider/instaclustr",
-    "description": "Kafka management, observability and message search.",
-    "walkthrough": "Explore a topic, inspect consumer lag, and demonstrate message search and Kafka Connect monitoring.",
-    "sort_order": 10,
-    "demo_url": null,
-    "status": "planned"
-  },
-  {
-    "slug": "lenses",
-    "name": "Lenses.io",
-    "category": "commercial",
-    "edition": "Commercial",
-    "icon": "LE",
-    "website_url": "https://lenses.io/",
-    "docs_url": "https://docs.lenses.io/latest/getting-started/connecting-lenses-to-your-environment/overview",
-    "description": "Streaming data exploration, SQL and governance.",
-    "walkthrough": "Query a synthetic orders topic and discuss permissions and lineage.",
-    "sort_order": 20,
-    "demo_url": null,
-    "status": "planned"
-  },
-  {
-    "slug": "conduktor",
-    "name": "Conduktor",
-    "category": "commercial",
-    "edition": "Commercial",
-    "icon": "CO",
-    "website_url": "https://www.conduktor.io/console",
-    "docs_url": "https://www.conduktor.io/get-started",
-    "description": "Kafka operations, developer self-service and governance.",
-    "walkthrough": "Browse topics, review consumer groups and demonstrate a governed developer workflow.",
-    "sort_order": 30,
-    "demo_url": null,
-    "status": "planned"
-  },
-  {
-    "slug": "akhq",
-    "name": "AKHQ",
-    "category": "opensource",
-    "edition": "Open source",
-    "icon": "AQ",
-    "website_url": "https://akhq.io/",
-    "docs_url": "https://akhq.io/docs/installation.html",
-    "description": "Lightweight web interface for topics, groups and cluster resources.",
-    "walkthrough": "Browse demo.orders.v1, inspect JSON records and review consumer group offsets.",
-    "sort_order": 40,
-    "demo_url": null,
-    "status": "planned"
-  },
-  {
-    "slug": "kafbat",
-    "name": "Kafbat UI",
-    "category": "opensource",
-    "edition": "Open source",
-    "icon": "KU",
-    "website_url": "https://kafbat.org/",
-    "docs_url": "https://ui.docs.kafbat.io/overview/getting-started",
-    "description": "Open-source Kafka UI for messages, partitions and cluster resources.",
-    "walkthrough": "Select the demo cluster, explore partitions and inspect payloads and lag.",
-    "sort_order": 50,
-    "demo_url": null,
-    "status": "planned"
-  },
-  {
-    "slug": "risingwave",
-    "name": "RisingWave",
-    "category": "analytics",
-    "edition": "Open source / commercial offerings",
-    "icon": "RW",
-    "website_url": "https://risingwave.com/",
-    "docs_url": "https://risingwave.com/connectors/apache-kafka-source/",
-    "description": "Streaming SQL and continuously updated materialized views.",
-    "walkthrough": "Connect a Kafka source and show an orders-by-region view updating as events arrive.",
-    "sort_order": 60,
-    "demo_url": null,
-    "status": "planned"
-  },
-  {
-    "slug": "streambased",
-    "name": "Streambased",
-    "category": "analytics",
-    "edition": "Commercial",
-    "icon": "SB",
-    "website_url": "https://streambased.io/",
-    "docs_url": "https://docs.streambased.io/what-is-streambased",
-    "description": "SQL analytics and Apache Iceberg views over Kafka data.",
-    "walkthrough": "Show a Kafka topic projected as an Iceberg table and query it using a compatible engine.",
-    "sort_order": 70,
-    "demo_url": null,
-    "status": "planned"
-  }
-]
+{
+  "schema_version": 1,
+  "platforms": [
+    {
+      "slug": "apache-kafka",
+      "name": "Apache Kafka",
+      "abbr": "K",
+      "kind": "Streaming",
+      "summary": "Event streaming, developer experience, and real-time processing.",
+      "tools": [
+        {
+          "slug": "kpow",
+          "name": "Factor House · Kpow",
+          "kind": "Commercial DevEx",
+          "website_url": "https://factorhouse.io/",
+          "walkthrough": "Inspect topics, messages, consumer lag and Connect.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "lenses",
+          "name": "Lenses.io",
+          "kind": "Commercial DevEx",
+          "website_url": "https://lenses.io/",
+          "walkthrough": "Explore streaming SQL and governed developer workflows.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "conduktor",
+          "name": "Conduktor",
+          "kind": "Commercial DevEx",
+          "website_url": "https://www.conduktor.io/",
+          "walkthrough": "Demonstrate self-service, governance and Kafka operations.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "akhq",
+          "name": "AKHQ",
+          "kind": "Open-source DevEx",
+          "website_url": "https://akhq.io/",
+          "walkthrough": "Browse topics and consumer groups using read-only access.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "kafbat",
+          "name": "Kafbat UI",
+          "kind": "Open-source DevEx",
+          "website_url": "https://kafbat.org/",
+          "walkthrough": "Explore partitions, message payloads and group offsets.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "risingwave",
+          "name": "RisingWave",
+          "kind": "Stream processing",
+          "website_url": "https://risingwave.com/",
+          "walkthrough": "Create a streaming source and continuously updated materialized view.",
+          "license": "mixed",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "streambased",
+          "name": "Streambased",
+          "kind": "Iceberg analytics",
+          "website_url": "https://streambased.io/",
+          "walkthrough": "Explore Kafka data through an Iceberg-compatible analytics layer.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "kafka-connect",
+          "name": "Kafka Connect",
+          "kind": "Data integration",
+          "website_url": "https://kafka.apache.org/documentation/#connect",
+          "walkthrough": "Move data between Kafka and external systems.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "slug": "apache-cassandra",
+      "name": "Apache Cassandra",
+      "abbr": "C",
+      "kind": "Distributed NoSQL",
+      "summary": "Distributed data modeling, CQL, and application integration.",
+      "tools": [
+        {
+          "slug": "cqlsh",
+          "name": "cqlsh",
+          "kind": "Developer tools",
+          "website_url": "https://cassandra.apache.org/doc/stable/cassandra/getting-started/querying.html",
+          "walkthrough": "Query synthetic data and demonstrate partition-aware modeling.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "dbeaver",
+          "name": "DBeaver",
+          "kind": "Developer tools",
+          "website_url": "https://dbeaver.com/",
+          "walkthrough": "Explore CQL and schema using a Cassandra-capable edition.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "spark-connector",
+          "name": "Spark Cassandra Connector",
+          "kind": "Analytics",
+          "website_url": "https://github.com/datastax/spark-cassandra-connector",
+          "walkthrough": "Analyze data using Spark and connector-compatible Cassandra versions.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "reaper",
+          "name": "Cassandra Reaper",
+          "kind": "Operations reference",
+          "website_url": "https://cassandra.apache.org/_/ecosystem.html",
+          "walkthrough": "Explain repair orchestration; do not run against managed clusters without approval.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "medusa",
+          "name": "Cassandra Medusa",
+          "kind": "Operations reference",
+          "website_url": "https://cassandra.apache.org/_/ecosystem.html",
+          "walkthrough": "Discuss backup and restore tooling; managed-service operations remain provider-owned.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "slug": "postgresql",
+      "name": "PostgreSQL",
+      "abbr": "PG",
+      "kind": "Relational",
+      "summary": "SQL development, query performance and change data capture.",
+      "tools": [
+        {
+          "slug": "pgadmin",
+          "name": "pgAdmin",
+          "kind": "Developer tools",
+          "website_url": "https://www.pgadmin.org/",
+          "walkthrough": "Browse schemas and explain query plans using a scoped role.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "dbeaver",
+          "name": "DBeaver",
+          "kind": "Developer tools",
+          "website_url": "https://dbeaver.io/",
+          "walkthrough": "Explore SQL, schemas and sample application data.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "debezium",
+          "name": "Debezium",
+          "kind": "Change data capture",
+          "website_url": "https://debezium.io/documentation/reference/stable/connectors/postgresql.html",
+          "walkthrough": "Stream database changes to Kafka using approved logical replication settings.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "pgbench",
+          "name": "pgbench",
+          "kind": "Performance",
+          "website_url": "https://www.postgresql.org/docs/current/pgbench.html",
+          "walkthrough": "Benchmark an isolated database with an agreed workload.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "pgbouncer",
+          "name": "PgBouncer",
+          "kind": "Connection pooling",
+          "website_url": "https://www.pgbouncer.org/",
+          "walkthrough": "Demonstrate connection pooling and client behavior.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "slug": "clickhouse",
+      "name": "ClickHouse",
+      "abbr": "CH",
+      "kind": "Real-time analytics",
+      "summary": "High-throughput analytical SQL, BI, and Kafka ingestion.",
+      "tools": [
+        {
+          "slug": "grafana",
+          "name": "Grafana",
+          "kind": "Visualization",
+          "website_url": "https://clickhouse.com/integrations/grafana",
+          "walkthrough": "Build analytical dashboards using the ClickHouse data source.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "superset",
+          "name": "Apache Superset",
+          "kind": "Business intelligence",
+          "website_url": "https://clickhouse.com/integrations/superset",
+          "walkthrough": "Create a dataset, chart, and interactive dashboard.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "dbt",
+          "name": "dbt",
+          "kind": "Data transformation",
+          "website_url": "https://clickhouse.com/integrations",
+          "walkthrough": "Build version-controlled analytical models with a compatible adapter.",
+          "license": "mixed",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "kafka-ingestion",
+          "name": "Kafka ingestion",
+          "kind": "Streaming integration",
+          "website_url": "https://www.instaclustr.com/support/documentation/clickhouse/integrations/kafka/",
+          "walkthrough": "Demonstrate supported Instaclustr Kafka-to-ClickHouse ingestion.",
+          "license": "integration",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "dbeaver",
+          "name": "DBeaver",
+          "kind": "SQL client",
+          "website_url": "https://dbeaver.io/",
+          "walkthrough": "Query a synthetic analytical dataset with the ClickHouse driver.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "slug": "opensearch",
+      "name": "OpenSearch",
+      "abbr": "OS",
+      "kind": "Search & observability",
+      "summary": "Search, log analytics, ingest pipelines, and visual exploration.",
+      "tools": [
+        {
+          "slug": "dashboards",
+          "name": "OpenSearch Dashboards",
+          "kind": "Visualization",
+          "website_url": "https://docs.opensearch.org/latest/dashboards/",
+          "walkthrough": "Explore indices, queries and visualizations.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "data-prepper",
+          "name": "Data Prepper",
+          "kind": "Data ingestion",
+          "website_url": "https://docs.opensearch.org/latest/data-prepper/",
+          "walkthrough": "Process and enrich synthetic telemetry before indexing.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "fluent-bit",
+          "name": "Fluent Bit",
+          "kind": "Log collection",
+          "website_url": "https://fluentbit.io/",
+          "walkthrough": "Forward synthetic logs into an approved ingest pipeline.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "otel",
+          "name": "OpenTelemetry Collector",
+          "kind": "Telemetry",
+          "website_url": "https://opentelemetry.io/docs/collector/",
+          "walkthrough": "Route application traces into a compatible OpenSearch ingest pipeline.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "slug": "cadence",
+      "name": "Cadence",
+      "abbr": "CD",
+      "kind": "Workflow orchestration",
+      "summary": "Durable execution, workflow debugging, and resilient applications.",
+      "tools": [
+        {
+          "slug": "cadence-web",
+          "name": "Cadence Web",
+          "kind": "Developer tools",
+          "website_url": "https://github.com/cadence-workflow/cadence-web",
+          "walkthrough": "Inspect execution history, status and retry behavior.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "cadence-cli",
+          "name": "Cadence CLI",
+          "kind": "Developer tools",
+          "website_url": "https://cadenceworkflow.io/",
+          "walkthrough": "Inspect approved demo workflows from a terminal.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "go-sdk",
+          "name": "Go SDK",
+          "kind": "Application integration",
+          "website_url": "https://github.com/cadence-workflow/cadence-go-client",
+          "walkthrough": "Build a durable order-processing workflow in Go.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "java-sdk",
+          "name": "Java SDK",
+          "kind": "Application integration",
+          "website_url": "https://github.com/cadence-workflow/cadence-java-client",
+          "walkthrough": "Demonstrate activities, retries and workflow execution in Java.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "slug": "mcp-gateway",
+      "name": "MCP Gateway",
+      "abbr": "MCP",
+      "kind": "AI connectivity",
+      "summary": "An evolving gateway project for governed access to tools and data. Public information only.",
+      "tools": [
+        {
+          "slug": "inspector",
+          "name": "MCP Inspector",
+          "kind": "Developer tools",
+          "website_url": "https://github.com/modelcontextprotocol/inspector",
+          "walkthrough": "Validate protocol discovery and tool calls against an authorized test endpoint.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "typescript-sdk",
+          "name": "MCP TypeScript SDK",
+          "kind": "SDK",
+          "website_url": "https://github.com/modelcontextprotocol/typescript-sdk",
+          "walkthrough": "Build a test client or synthetic MCP server.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "python-sdk",
+          "name": "MCP Python SDK",
+          "kind": "SDK",
+          "website_url": "https://github.com/modelcontextprotocol/python-sdk",
+          "walkthrough": "Build a test client and validate tool schemas.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null
+        },
+        {
+          "slug": "protocol",
+          "name": "MCP specification",
+          "kind": "Reference",
+          "website_url": "https://modelcontextprotocol.io/",
+          "walkthrough": "Review transport, authentication and tool discovery requirements.",
+          "license": "reference",
+          "status": "planned",
+          "demo_url": null
+        }
+      ],
+      "status": "in-development"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "instaclustr-api",
+      "name": "Instaclustr API",
+      "abbr": "API",
+      "kind": "Platform automation",
+      "summary": "Provisioning, cluster management, and monitoring API examples.",
+      "url": "https://www.instaclustr.com/support/api-integrations/",
+      "steps": "Use documented API versions, scoped credentials and read-only smoke tests before any resource changes.",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "deployment",
+      "name": "Deployment & IaC",
+      "abbr": "IaC",
+      "kind": "Infrastructure",
+      "summary": "Reusable Terraform, deployment scripts, and environment templates.",
+      "url": "https://www.instaclustr.com/support/api-integrations/integrations/using-the-instaclustr-terraform-provider/",
+      "steps": "Pin provider versions, review plans, and require an operator approval before apply.",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "prometheus",
+      "name": "Prometheus",
+      "abbr": "PR",
+      "kind": "Monitoring",
+      "summary": "Instaclustr service discovery, metric collection, alert rules and PromQL.",
+      "url": "https://www.instaclustr.com/support/api-integrations/integrations/instaclustr-monitoring-with-prometheus/",
+      "steps": "Configure account discovery and a scoped monitoring API key; validate targets and queries.",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "grafana",
+      "name": "Grafana dashboards",
+      "abbr": "GF",
+      "kind": "Visualization",
+      "summary": "Versioned dashboard JSON, datasource provisioning and legacy XML intake.",
+      "url": "https://grafana.com/docs/grafana/latest/administration/provisioning/",
+      "steps": "Inspect and sanitize exports, map datasource UIDs, provision dashboards and validate panels.",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "cross-platform-demos",
+      "name": "Cross-platform demos",
+      "abbr": "DE",
+      "kind": "Solution architecture",
+      "summary": "Reusable reference architectures and synthetic datasets across technologies.",
+      "url": "https://www.instaclustr.com/",
+      "steps": "Choose a synthetic use case, define interfaces and permissions, then connect independently validated components.",
+      "status": "planned",
+      "demo_url": null
+    }
+  ]
+}

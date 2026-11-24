@@ -1,0 +1,60 @@
+{
+  "slug": "apache-cassandra",
+  "name": "Apache Cassandra",
+  "abbr": "C",
+  "kind": "Distributed NoSQL",
+  "summary": "Distributed data modeling, CQL, and application integration.",
+  "tools": [
+    {
+      "slug": "cqlsh",
+      "name": "cqlsh",
+      "kind": "Developer tools",
+      "website_url": "https://cassandra.apache.org/doc/stable/cassandra/getting-started/querying.html",
+      "walkthrough": "Query synthetic data and demonstrate partition-aware modeling.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "dbeaver",
+      "name": "DBeaver",
+      "kind": "Developer tools",
+      "website_url": "https://dbeaver.com/",
+      "walkthrough": "Explore CQL and schema using a Cassandra-capable edition.",
+      "license": "commercial",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "spark-connector",
+      "name": "Spark Cassandra Connector",
+      "kind": "Analytics",
+      "website_url": "https://github.com/datastax/spark-cassandra-connector",
+      "walkthrough": "Analyze data using Spark and connector-compatible Cassandra versions.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "reaper",
+      "name": "Cassandra Reaper",
+      "kind": "Operations reference",
+      "website_url": "https://cassandra.apache.org/_/ecosystem.html",
+      "walkthrough": "Explain repair orchestration; do not run against managed clusters without approval.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "medusa",
+      "name": "Cassandra Medusa",
+      "kind": "Operations reference",
+      "website_url": "https://cassandra.apache.org/_/ecosystem.html",
+      "walkthrough": "Discuss backup and restore tooling; managed-service operations remain provider-owned.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "planned"
+}

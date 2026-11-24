@@ -1,0 +1,11 @@
+{
+  "slug": "cross-platform-demos",
+  "name": "Cross-platform demos",
+  "abbr": "DE",
+  "kind": "Solution architecture",
+  "summary": "Reusable reference architectures and synthetic datasets across technologies.",
+  "url": "https://www.instaclustr.com/",
+  "steps": "Choose a synthetic use case, define interfaces and permissions, then connect independently validated components.",
+  "status": "planned",
+  "demo_url": null
+}

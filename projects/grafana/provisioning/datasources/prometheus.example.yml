@@ -1,0 +1,9 @@
+apiVersion: 1
+datasources:
+  - name: Instaclustr Demo Prometheus
+    uid: instaclustr-demo-prometheus
+    type: prometheus
+    access: proxy
+    url: $PROMETHEUS_URL
+    isDefault: false
+    editable: false

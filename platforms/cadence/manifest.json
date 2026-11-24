@@ -1,0 +1,50 @@
+{
+  "slug": "cadence",
+  "name": "Cadence",
+  "abbr": "CD",
+  "kind": "Workflow orchestration",
+  "summary": "Durable execution, workflow debugging, and resilient applications.",
+  "tools": [
+    {
+      "slug": "cadence-web",
+      "name": "Cadence Web",
+      "kind": "Developer tools",
+      "website_url": "https://github.com/cadence-workflow/cadence-web",
+      "walkthrough": "Inspect execution history, status and retry behavior.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "cadence-cli",
+      "name": "Cadence CLI",
+      "kind": "Developer tools",
+      "website_url": "https://cadenceworkflow.io/",
+      "walkthrough": "Inspect approved demo workflows from a terminal.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "go-sdk",
+      "name": "Go SDK",
+      "kind": "Application integration",
+      "website_url": "https://github.com/cadence-workflow/cadence-go-client",
+      "walkthrough": "Build a durable order-processing workflow in Go.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "java-sdk",
+      "name": "Java SDK",
+      "kind": "Application integration",
+      "website_url": "https://github.com/cadence-workflow/cadence-java-client",
+      "walkthrough": "Demonstrate activities, retries and workflow execution in Java.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "planned"
+}

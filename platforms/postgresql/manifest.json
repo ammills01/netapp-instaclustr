@@ -1,0 +1,60 @@
+{
+  "slug": "postgresql",
+  "name": "PostgreSQL",
+  "abbr": "PG",
+  "kind": "Relational",
+  "summary": "SQL development, query performance and change data capture.",
+  "tools": [
+    {
+      "slug": "pgadmin",
+      "name": "pgAdmin",
+      "kind": "Developer tools",
+      "website_url": "https://www.pgadmin.org/",
+      "walkthrough": "Browse schemas and explain query plans using a scoped role.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "dbeaver",
+      "name": "DBeaver",
+      "kind": "Developer tools",
+      "website_url": "https://dbeaver.io/",
+      "walkthrough": "Explore SQL, schemas and sample application data.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "debezium",
+      "name": "Debezium",
+      "kind": "Change data capture",
+      "website_url": "https://debezium.io/documentation/reference/stable/connectors/postgresql.html",
+      "walkthrough": "Stream database changes to Kafka using approved logical replication settings.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "pgbench",
+      "name": "pgbench",
+      "kind": "Performance",
+      "website_url": "https://www.postgresql.org/docs/current/pgbench.html",
+      "walkthrough": "Benchmark an isolated database with an agreed workload.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "pgbouncer",
+      "name": "PgBouncer",
+      "kind": "Connection pooling",
+      "website_url": "https://www.pgbouncer.org/",
+      "walkthrough": "Demonstrate connection pooling and client behavior.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "planned"
+}

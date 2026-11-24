@@ -1,0 +1,90 @@
+{
+  "slug": "apache-kafka",
+  "name": "Apache Kafka",
+  "abbr": "K",
+  "kind": "Streaming",
+  "summary": "Event streaming, developer experience, and real-time processing.",
+  "tools": [
+    {
+      "slug": "kpow",
+      "name": "Factor House · Kpow",
+      "kind": "Commercial DevEx",
+      "website_url": "https://factorhouse.io/",
+      "walkthrough": "Inspect topics, messages, consumer lag and Connect.",
+      "license": "commercial",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "lenses",
+      "name": "Lenses.io",
+      "kind": "Commercial DevEx",
+      "website_url": "https://lenses.io/",
+      "walkthrough": "Explore streaming SQL and governed developer workflows.",
+      "license": "commercial",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "conduktor",
+      "name": "Conduktor",
+      "kind": "Commercial DevEx",
+      "website_url": "https://www.conduktor.io/",
+      "walkthrough": "Demonstrate self-service, governance and Kafka operations.",
+      "license": "commercial",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "akhq",
+      "name": "AKHQ",
+      "kind": "Open-source DevEx",
+      "website_url": "https://akhq.io/",
+      "walkthrough": "Browse topics and consumer groups using read-only access.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "kafbat",
+      "name": "Kafbat UI",
+      "kind": "Open-source DevEx",
+      "website_url": "https://kafbat.org/",
+      "walkthrough": "Explore partitions, message payloads and group offsets.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "risingwave",
+      "name": "RisingWave",
+      "kind": "Stream processing",
+      "website_url": "https://risingwave.com/",
+      "walkthrough": "Create a streaming source and continuously updated materialized view.",
+      "license": "mixed",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "streambased",
+      "name": "Streambased",
+      "kind": "Iceberg analytics",
+      "website_url": "https://streambased.io/",
+      "walkthrough": "Explore Kafka data through an Iceberg-compatible analytics layer.",
+      "license": "commercial",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "kafka-connect",
+      "name": "Kafka Connect",
+      "kind": "Data integration",
+      "website_url": "https://kafka.apache.org/documentation/#connect",
+      "walkthrough": "Move data between Kafka and external systems.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "planned"
+}

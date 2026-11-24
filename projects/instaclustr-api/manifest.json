@@ -1,0 +1,11 @@
+{
+  "slug": "instaclustr-api",
+  "name": "Instaclustr API",
+  "abbr": "API",
+  "kind": "Platform automation",
+  "summary": "Provisioning, cluster management, and monitoring API examples.",
+  "url": "https://www.instaclustr.com/support/api-integrations/",
+  "steps": "Use documented API versions, scoped credentials and read-only smoke tests before any resource changes.",
+  "status": "planned",
+  "demo_url": null
+}

@@ -1,0 +1,2 @@
+# Synthetic retail event stream
+Candidate shared scenario: PostgreSQL order transactions → Debezium → Kafka → ClickHouse analytics / OpenSearch search / RisingWave streaming SQL. Cassandra can serve partition-oriented order status lookups; Cadence can orchestrate fulfillment. MCP Gateway can eventually expose approved read-only tools. Prometheus/Grafana provide monitoring across components. This is a proposed architecture, not a claim of validated compatibility or deployment. Keep data synthetic and service credentials isolated.

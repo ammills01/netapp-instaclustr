@@ -1,0 +1,50 @@
+{
+  "slug": "opensearch",
+  "name": "OpenSearch",
+  "abbr": "OS",
+  "kind": "Search & observability",
+  "summary": "Search, log analytics, ingest pipelines, and visual exploration.",
+  "tools": [
+    {
+      "slug": "dashboards",
+      "name": "OpenSearch Dashboards",
+      "kind": "Visualization",
+      "website_url": "https://docs.opensearch.org/latest/dashboards/",
+      "walkthrough": "Explore indices, queries and visualizations.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "data-prepper",
+      "name": "Data Prepper",
+      "kind": "Data ingestion",
+      "website_url": "https://docs.opensearch.org/latest/data-prepper/",
+      "walkthrough": "Process and enrich synthetic telemetry before indexing.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "fluent-bit",
+      "name": "Fluent Bit",
+      "kind": "Log collection",
+      "website_url": "https://fluentbit.io/",
+      "walkthrough": "Forward synthetic logs into an approved ingest pipeline.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "otel",
+      "name": "OpenTelemetry Collector",
+      "kind": "Telemetry",
+      "website_url": "https://opentelemetry.io/docs/collector/",
+      "walkthrough": "Route application traces into a compatible OpenSearch ingest pipeline.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "planned"
+}

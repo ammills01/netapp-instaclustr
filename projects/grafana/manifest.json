@@ -1,0 +1,11 @@
+{
+  "slug": "grafana",
+  "name": "Grafana dashboards",
+  "abbr": "GF",
+  "kind": "Visualization",
+  "summary": "Versioned dashboard JSON, datasource provisioning and legacy XML intake.",
+  "url": "https://grafana.com/docs/grafana/latest/administration/provisioning/",
+  "steps": "Inspect and sanitize exports, map datasource UIDs, provision dashboards and validate panels.",
+  "status": "planned",
+  "demo_url": null
+}

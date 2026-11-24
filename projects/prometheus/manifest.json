@@ -1,0 +1,11 @@
+{
+  "slug": "prometheus",
+  "name": "Prometheus",
+  "abbr": "PR",
+  "kind": "Monitoring",
+  "summary": "Instaclustr service discovery, metric collection, alert rules and PromQL.",
+  "url": "https://www.instaclustr.com/support/api-integrations/integrations/instaclustr-monitoring-with-prometheus/",
+  "steps": "Configure account discovery and a scoped monitoring API key; validate targets and queries.",
+  "status": "planned",
+  "demo_url": null
+}

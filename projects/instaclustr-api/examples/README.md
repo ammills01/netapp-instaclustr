@@ -1,0 +1,2 @@
+# API examples
+Use https://www.instaclustr.com/support/api-integrations/api-reference/cluster-management-api/ for cluster management and https://www.instaclustr.com/support/api-integrations/api-reference/monitoring-api/ for metrics. Keep provisioning and monitoring credentials separate; use the appropriate API key type. Start with read-only requests, use a documented cluster ID and rate limits, and redact all output before sharing. Never run destructive examples automatically.

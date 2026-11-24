@@ -1,0 +1,2 @@
+# Terraform
+Use Instaclustr Terraform Provider v2 documentation at https://www.instaclustr.com/support/api-integrations/integrations/using-the-instaclustr-terraform-provider/ . Add per-technology modules and reviewed provider constraints here; no guessed resource schemas are included. Keep state encrypted and private, use runtime credentials, require review of plans and explicitly approve apply. Do not commit state, saved plans or environment-specific tfvars.

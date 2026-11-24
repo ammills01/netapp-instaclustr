@@ -1,0 +1,60 @@
+{
+  "slug": "clickhouse",
+  "name": "ClickHouse",
+  "abbr": "CH",
+  "kind": "Real-time analytics",
+  "summary": "High-throughput analytical SQL, BI, and Kafka ingestion.",
+  "tools": [
+    {
+      "slug": "grafana",
+      "name": "Grafana",
+      "kind": "Visualization",
+      "website_url": "https://clickhouse.com/integrations/grafana",
+      "walkthrough": "Build analytical dashboards using the ClickHouse data source.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "superset",
+      "name": "Apache Superset",
+      "kind": "Business intelligence",
+      "website_url": "https://clickhouse.com/integrations/superset",
+      "walkthrough": "Create a dataset, chart, and interactive dashboard.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "dbt",
+      "name": "dbt",
+      "kind": "Data transformation",
+      "website_url": "https://clickhouse.com/integrations",
+      "walkthrough": "Build version-controlled analytical models with a compatible adapter.",
+      "license": "mixed",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "kafka-ingestion",
+      "name": "Kafka ingestion",
+      "kind": "Streaming integration",
+      "website_url": "https://www.instaclustr.com/support/documentation/clickhouse/integrations/kafka/",
+      "walkthrough": "Demonstrate supported Instaclustr Kafka-to-ClickHouse ingestion.",
+      "license": "integration",
+      "status": "planned",
+      "demo_url": null
+    },
+    {
+      "slug": "dbeaver",
+      "name": "DBeaver",
+      "kind": "SQL client",
+      "website_url": "https://dbeaver.io/",
+      "walkthrough": "Query a synthetic analytical dataset with the ClickHouse driver.",
+      "license": "open-source",
+      "status": "planned",
+      "demo_url": null
+    }
+  ],
+  "status": "planned"
+}

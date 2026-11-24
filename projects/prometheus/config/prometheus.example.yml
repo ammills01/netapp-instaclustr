@@ -1,0 +1,17 @@
+# Template: substitute ACCOUNT_ID, CLUSTER_ID and MONITORING_USERNAME before running.
+# Mount the monitoring API key file at the indicated path; do not commit the rendered config.
+global:
+  scrape_interval: 30s
+  evaluation_interval: 30s
+scrape_configs:
+  - job_name: instaclustr
+    scheme: https
+    http_sd_configs:
+      - url: https://ACCOUNT_ID.prometheus.monitoring.instaclustr.com/discovery/v1/CLUSTER_ID
+        basic_auth:
+          username: MONITORING_USERNAME
+          password_file: /run/secrets/instaclustr_monitoring_key
+    metrics_path: /metrics/v2/query
+    basic_auth:
+      username: MONITORING_USERNAME
+      password_file: /run/secrets/instaclustr_monitoring_key

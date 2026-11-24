@@ -1,0 +1,2 @@
+# Prometheus configuration
+Reference: https://www.instaclustr.com/support/api-integrations/integrations/instaclustr-monitoring-with-prometheus/ . Replace placeholders with approved account, cluster and monitoring username. Verify the currently documented metrics path and discovery format for your account. Mount the API key using a protected secret file; validate with promtool check config and the Targets page. Keep TLS verification enabled and restrict Prometheus UI access. This example is not connected or deployed.

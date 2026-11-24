@@ -1,0 +1,11 @@
+{
+  "slug": "deployment",
+  "name": "Deployment & IaC",
+  "abbr": "IaC",
+  "kind": "Infrastructure",
+  "summary": "Reusable Terraform, deployment scripts, and environment templates.",
+  "url": "https://www.instaclustr.com/support/api-integrations/integrations/using-the-instaclustr-terraform-provider/",
+  "steps": "Pin provider versions, review plans, and require an operator approval before apply.",
+  "status": "planned",
+  "demo_url": null
+}

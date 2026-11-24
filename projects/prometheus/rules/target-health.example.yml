@@ -1,0 +1,10 @@
+groups:
+  - name: demo-target-health
+    rules:
+      - alert: DemoTargetDown
+        expr: up{job="instaclustr"} == 0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Instaclustr demo monitoring target is unavailable"

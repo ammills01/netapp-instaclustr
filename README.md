@@ -1,2 +1,19 @@
-# netapp-instaclustr
-This contains samples created to help demonstrate various functions for the NetApp Instaclustr platform.
+# NetApp Instaclustr | Solution Architecture Lab
+
+Public, independent demonstration repository for the Instaclustr ecosystem. No production or customer data, no secrets, and no claim that a catalog entry is deployed or supported by Instaclustr.
+
+- [Demo hub](https://ammills01.github.io/netapp-instaclustr/) — GitHub Pages serves only `docs/`.
+- `platforms/` — seven technology-specific integration and demo areas.
+- `projects/` — shared platform API, deployment/IaC, Prometheus, Grafana and cross-platform demos.
+- `hub/` — shared PostgreSQL catalog, catalog API and build utilities.
+- `docs/` — publishable, static site and generated public catalog.
+
+## Quick start
+Run `python3 hub/build_catalog.py` to regenerate the bundled catalog from the manifests. Then `python3 -m http.server 8080 --directory docs`. GitHub Pages: main branch, /docs. If you change public manifests, regenerate the catalog and commit both. PostgreSQL is optional until the API is deployed; see hub/README.md.
+
+Each integration is initially planned. Vendor capability is not a statement of managed-service support: confirm versions, networking, service restrictions, licensing and security before demo deployment. The MCP gateway is in development; keep non-public architecture, endpoints and source in an approved private repository.
+
+## Public-repository policy
+Never commit passwords, tokens, keys, certificates with private keys, license files, tfstate, customer identifiers or internal endpoints. Only sanitized sample data and approved public endpoints belong in manifests or dashboard exports. Use secrets at runtime, never inject secrets into Pages. Review public branding and third-party trademarks internally. Pin reviewed versions and test in an isolated environment. See SECURITY.md.
+
+This clean structure supersedes the initial Kafka-only implementation. Prior commits remain in Git history.

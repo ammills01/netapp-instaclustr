@@ -1,2 +1,2 @@
-// Public settings only. Never include credentials.
-window.DEMO_CONFIG = { apiBase: "" };
+// Public configuration only.
+window.HUB_CONFIG = { apiBase: "" };
