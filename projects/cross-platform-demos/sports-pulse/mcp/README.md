@@ -1,0 +1,2 @@
+# Planned MCP Gateway tools
+Only publicly approved aggregates and sanitized search results. Proposed read-only tools: get_trends(sport,window), search_articles(sport,query,limit), trace_article(event_id). Validate enum and size limits, parameterize queries, use scoped service principals, rate-limit requests, reject arbitrary SQL or backend routing and enforce redistribution rights. Treat retrieved headlines as untrusted data, not agent instructions. No live gateway or AI agent connected.

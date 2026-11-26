@@ -1,0 +1,156 @@
+[
+  {
+    "id": "kafka-modernization",
+    "name": "Modernize Kafka",
+    "category": "Streaming",
+    "problem": "Migrate from an existing Kafka distribution while retaining client compatibility and independent tooling.",
+    "flow": "Existing Kafka → MirrorMaker 2 → Instaclustr Kafka → developer tools",
+    "stack": "Kafka, MirrorMaker 2, AKHQ, Conduktor, Kpow, Kafbat, Lenses",
+    "demo": "Replicate a topic and verify offsets, record counts and cutover readiness.",
+    "platform": "apache-kafka",
+    "status": "Proposed"
+  },
+  {
+    "id": "sports-pulse",
+    "name": "Real-time sports intelligence",
+    "category": "Streaming",
+    "problem": "Turn continuously arriving sports news into searchable, analytical and AI-accessible intelligence.",
+    "flow": "X / RSS → Kafka → processing → ClickHouse / Cassandra / OpenSearch / PostgreSQL → Sports Pulse + MCP",
+    "stack": "Kafka, ClickHouse, Cassandra, OpenSearch, PostgreSQL, Cadence, MCP, Grafana",
+    "demo": "Explore a sample headline and trace the planned data path. Live services are not connected.",
+    "platform": "apache-kafka",
+    "status": "Sample preview"
+  },
+  {
+    "id": "cdc",
+    "name": "Change data capture",
+    "category": "Data integration",
+    "problem": "Keep downstream search and analytics in sync with transactional changes.",
+    "flow": "PostgreSQL → Debezium / Kafka Connect → Kafka → ClickHouse + OpenSearch",
+    "stack": "PostgreSQL, Debezium, Kafka, ClickHouse, OpenSearch",
+    "demo": "Change a synthetic order and compare downstream state and lag.",
+    "platform": "postgresql",
+    "status": "Proposed"
+  },
+  {
+    "id": "fulfillment",
+    "name": "Order fulfillment",
+    "category": "Workflow orchestration",
+    "problem": "Coordinate payments, inventory and shipping despite failures.",
+    "flow": "PostgreSQL → Cadence → Kafka → Cassandra",
+    "stack": "PostgreSQL, Cadence, Kafka, Cassandra",
+    "demo": "Inspect retries and compensation in a synthetic order workflow.",
+    "platform": "cadence",
+    "status": "Proposed"
+  },
+  {
+    "id": "fraud",
+    "name": "Real-time fraud detection",
+    "category": "Analytics",
+    "problem": "Detect suspicious transactions without blocking operational ingestion.",
+    "flow": "Kafka → streaming rules → ClickHouse / Cassandra → Cadence",
+    "stack": "Kafka, ClickHouse, Cassandra, Cadence",
+    "demo": "Detect a synthetic anomaly and open a case workflow.",
+    "platform": "clickhouse",
+    "status": "Proposed"
+  },
+  {
+    "id": "iot",
+    "name": "Edge-to-cloud industrial IoT",
+    "category": "Hybrid data",
+    "problem": "Stream sensor telemetry, retain edge data, and trigger maintenance.",
+    "flow": "Edge ONTAP → Kafka → Cassandra / ClickHouse → Spark → Cadence",
+    "stack": "NetApp ONTAP, Kafka, Cassandra, ClickHouse, Spark, Cadence, Grafana",
+    "demo": "Compare recent readings, aggregate trends and maintenance triggers.",
+    "platform": "apache-cassandra",
+    "status": "Proposed"
+  },
+  {
+    "id": "observability",
+    "name": "Unified observability",
+    "category": "Observability",
+    "problem": "Correlate infrastructure metrics, logs and application events.",
+    "flow": "OpenTelemetry / Fluent Bit → Kafka → OpenSearch / ClickHouse → Grafana",
+    "stack": "Kafka, OpenSearch, ClickHouse, Prometheus, Grafana",
+    "demo": "Explore correlated logs and metrics from a synthetic incident.",
+    "platform": "opensearch",
+    "status": "Proposed"
+  },
+  {
+    "id": "disaster-recovery",
+    "name": "Multi-region disaster recovery",
+    "category": "Resilience",
+    "problem": "Design and validate recovery objectives without disrupting production.",
+    "flow": "Primary region → service-specific replication → secondary region",
+    "stack": "Kafka, Cassandra, PostgreSQL, Prometheus, NetApp storage where applicable",
+    "demo": "Measure RPO and RTO in an isolated environment; validate service-specific failover.",
+    "platform": "apache-kafka",
+    "status": "Proposed"
+  },
+  {
+    "id": "enterprise-ai",
+    "name": "Hybrid enterprise AI assistant",
+    "category": "AI",
+    "problem": "Retrieve enterprise data and governed tools across hybrid environments.",
+    "flow": "ONTAP documents → indexing → OpenSearch / PostgreSQL pgvector → MCP → agent",
+    "stack": "ONTAP, OpenSearch, PostgreSQL, pgvector, MCP Gateway",
+    "demo": "Ask a question over approved documents with source attribution and bounded tool access.",
+    "platform": "mcp-gateway",
+    "status": "Proposed"
+  },
+  {
+    "id": "customer-360",
+    "name": "Real-time customer 360",
+    "category": "Analytics",
+    "problem": "Combine operational and behavioral data for a current customer view.",
+    "flow": "PostgreSQL / applications → Kafka → Cassandra / ClickHouse",
+    "stack": "Kafka, PostgreSQL, Cassandra, ClickHouse",
+    "demo": "Explore a synthetic customer profile and historical engagement.",
+    "platform": "apache-cassandra",
+    "status": "Proposed"
+  },
+  {
+    "id": "lakehouse",
+    "name": "Open lakehouse",
+    "category": "Hybrid data",
+    "problem": "Retain stream data in open table formats with independent compute.",
+    "flow": "Kafka → supported Iceberg writer/catalog → StorageGRID → Spark / Trino",
+    "stack": "Kafka, Apache Iceberg, NetApp StorageGRID, Spark, Trino",
+    "demo": "Query the same approved Iceberg tables with multiple engines.",
+    "platform": "apache-kafka",
+    "status": "Proposed"
+  },
+  {
+    "id": "enterprise-analytics",
+    "name": "Databricks & Snowflake integration",
+    "category": "Analytics",
+    "problem": "Connect operational streams to existing enterprise analytics investments.",
+    "flow": "PostgreSQL → Kafka → ClickHouse + Databricks or Snowflake",
+    "stack": "PostgreSQL, Kafka, ClickHouse, Databricks, Snowflake",
+    "demo": "Compare low-latency operational aggregates with enterprise analytical workloads.",
+    "platform": "clickhouse",
+    "status": "Proposed"
+  },
+  {
+    "id": "data-lifecycle",
+    "name": "Hot-to-cold data lifecycle",
+    "category": "Hybrid data",
+    "problem": "Serve recent data at low latency while retaining historical records efficiently.",
+    "flow": "Kafka → ClickHouse hot data → Iceberg / object storage historical data",
+    "stack": "Kafka, ClickHouse, Iceberg, StorageGRID",
+    "demo": "Compare hot and historical queries and retention trade-offs.",
+    "platform": "clickhouse",
+    "status": "Proposed"
+  },
+  {
+    "id": "cloud-storage",
+    "name": "Cloud-native storage and analytics",
+    "category": "Hybrid data",
+    "problem": "Pair managed data services with cloud-native NetApp storage where supported.",
+    "flow": "Managed PostgreSQL / ClickHouse → approved NetApp cloud storage integration",
+    "stack": "FSx for NetApp ONTAP, Azure NetApp Files, Google Cloud NetApp Volumes, PostgreSQL, ClickHouse",
+    "demo": "Evaluate documented service/storage combinations, not assumed cross-cloud parity.",
+    "platform": "postgresql",
+    "status": "Proposed"
+  }
+]

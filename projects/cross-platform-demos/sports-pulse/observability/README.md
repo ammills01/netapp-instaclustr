@@ -1,0 +1,2 @@
+# Planned observability
+Instrument successful feed polls, observed versus published timestamp freshness, record counts, delivery errors, Kafka consumer lag, sink errors and end-to-end processing latency. Export aggregate metrics with bounded labels (never event IDs, private URLs or credentials). Add Prometheus alerting and Grafana dashboards with read-only sanitized data sources. No live dashboards connected.

@@ -1,0 +1,3 @@
+# Planned Cadence workflows
+PollFeed: scheduled activity fetches approved feed, normalizes and publishes events with stable IDs, stores success checkpoint only after confirmed delivery. Use bounded retries, backoff, timeout, and overlap policy.
+MonitorEntity: periodically query approved trend endpoint, compare equal windows, record threshold status and produce a briefing. No public workflow creation until sandbox controls are validated. Public view is read-only execution history. No deployment yet.

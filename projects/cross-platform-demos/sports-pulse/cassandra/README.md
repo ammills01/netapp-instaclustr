@@ -1,0 +1,2 @@
+# Cassandra read model
+Proposed CQL schema in schema.cql. Use sport/day partitions for recent articles and event_id lookup for lineage. Create a dedicated keyspace with approved replication and choose retention and partition widths using measured workload. Sink implementation and validation pending.

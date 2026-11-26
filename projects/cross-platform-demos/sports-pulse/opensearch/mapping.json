@@ -1,0 +1,29 @@
+{
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "event_id": {
+        "type": "keyword"
+      },
+      "sport": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "text"
+      },
+      "source": {
+        "type": "keyword"
+      },
+      "source_type": {
+        "type": "keyword"
+      },
+      "published_at": {
+        "type": "date"
+      },
+      "url": {
+        "type": "keyword",
+        "index": false
+      }
+    }
+  }
+}

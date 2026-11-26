@@ -1,0 +1,2 @@
+# OpenSearch read model
+Proposed strict mapping in mapping.json. Index only rights-cleared headline metadata; use event_id as document ID, bound search queries and exclude sensitive fields. Sink implementation and access-control validation pending.
