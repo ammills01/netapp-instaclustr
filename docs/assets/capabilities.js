@@ -130,5 +130,13 @@ window.TOOL_CAPABILITIES = {
   "protocol": [
     "Standard tool discovery",
     "Interoperable transports"
+  ],
+  "datagrip": [
+    "Intelligent SQL query console",
+    "Custom JDBC data-source connectivity"
+  ],
+  "kafcacheql": [
+    "SQL filtering, joins and aggregations over Kafka topics",
+    "Incremental local caching and offline querying"
   ]
 };

@@ -1,0 +1,11 @@
+# Example only. Copy into a protected private file; never commit real credentials.
+# Confirm security settings and SCRAM compatibility with the deployed driver.
+security.protocol=SASL_SSL
+# sasl.mechanism=SCRAM-SHA-256
+# sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required username="REPLACE" password="REPLACE";
+append.default.window=1h
+append.default.window.max.records=1000
+cache.max.bytes=200000000
+cache.retention.hours=24
+# Navigator filter only, not an access control:
+topics.include=sports[.].*

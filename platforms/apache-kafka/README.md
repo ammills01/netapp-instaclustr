@@ -14,6 +14,9 @@ Status: planned. All tools below are candidates; no live deployments are claimed
 - [Streambased](integrations/streambased/README.md) — Iceberg analytics
 - [Kafka Connect](integrations/kafka-connect/README.md) — Data integration
 
+- [DataGrip](integrations/datagrip/README.md) — Developer experience (via KafCacheQL)
+- [KafCacheQL](integrations/kafcacheql/README.md) — Developer experience / JDBC SQL exploration
+
 ## Layout
 - integrations/: product-specific configuration and runbooks
 - demos/: customer walkthroughs and synthetic data

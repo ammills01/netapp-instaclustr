@@ -87,6 +87,28 @@
           "license": "open-source",
           "status": "planned",
           "demo_url": null
+        },
+        {
+          "slug": "datagrip",
+          "name": "DataGrip",
+          "kind": "Developer experience",
+          "website_url": "https://www.jetbrains.com/datagrip/",
+          "walkthrough": "Explore Kafka topics as SQL tables using the third-party KafCacheQL JDBC driver. DataGrip is a desktop IDE, not a native Kafka browser.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null,
+          "description": "JetBrains database IDE with SQL exploration via the third-party KafCacheQL JDBC driver."
+        },
+        {
+          "slug": "kafcacheql",
+          "name": "KafCacheQL",
+          "kind": "Developer experience",
+          "website_url": "https://github.com/ifnesi/kafcacheql",
+          "walkthrough": "Use SELECT queries against bounded Kafka topic snapshots in DataGrip or DBeaver, including joins and aggregations. Experimental, not a continuous streaming engine.",
+          "license": "open-source",
+          "status": "planned",
+          "demo_url": null,
+          "description": "Experimental Apache-2.0 JDBC driver for read-only SQL over locally cached Kafka records."
         }
       ],
       "status": "planned"
