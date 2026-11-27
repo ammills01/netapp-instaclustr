@@ -11,6 +11,8 @@ Status: planned. All tools below are candidates; no live deployments are claimed
 - [Kafka ingestion](integrations/kafka-ingestion/README.md) — Streaming integration
 - [DBeaver](integrations/dbeaver/README.md) — SQL client
 
+- [DBGorilla](integrations/dbgorilla/README.md) — Database observability
+
 ## Layout
 - integrations/: product-specific configuration and runbooks
 - demos/: customer walkthroughs and synthetic data

@@ -11,6 +11,8 @@ Status: planned. All tools below are candidates; no live deployments are claimed
 - [Cassandra Reaper](integrations/reaper/README.md) — Operations reference
 - [Cassandra Medusa](integrations/medusa/README.md) — Operations reference
 
+- [DBGorilla](integrations/dbgorilla/README.md) — Database observability
+
 ## Layout
 - integrations/: product-specific configuration and runbooks
 - demos/: customer walkthroughs and synthetic data

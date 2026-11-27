@@ -11,6 +11,8 @@ Status: planned. All tools below are candidates; no live deployments are claimed
 - [pgbench](integrations/pgbench/README.md) — Performance
 - [PgBouncer](integrations/pgbouncer/README.md) — Connection pooling
 
+- [DBGorilla](integrations/dbgorilla/README.md) — Database observability
+
 ## Layout
 - integrations/: product-specific configuration and runbooks
 - demos/: customer walkthroughs and synthetic data

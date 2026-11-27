@@ -169,6 +169,17 @@
           "license": "open-source",
           "status": "planned",
           "demo_url": null
+        },
+        {
+          "slug": "dbgorilla",
+          "name": "DBGorilla",
+          "kind": "Database observability",
+          "website_url": "https://www.dbgorilla.com/",
+          "walkthrough": "Explore node topology, CQL workload and Cassandra operational metrics; collector 0.16.0+ and Cassandra 4.0+.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null,
+          "description": "AI-assisted database operations, workload analysis and performance diagnostics. Commercial platform with a free tier."
         }
       ],
       "status": "planned"
@@ -229,6 +240,17 @@
           "license": "open-source",
           "status": "planned",
           "demo_url": null
+        },
+        {
+          "slug": "dbgorilla",
+          "name": "DBGorilla",
+          "kind": "Database observability",
+          "website_url": "https://www.dbgorilla.com/",
+          "walkthrough": "Analyze SQL workload and query performance; correlate database metrics with operational recommendations.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null,
+          "description": "AI-assisted database operations, workload analysis and performance diagnostics. Commercial platform with a free tier."
         }
       ],
       "status": "planned"
@@ -289,6 +311,17 @@
           "license": "open-source",
           "status": "planned",
           "demo_url": null
+        },
+        {
+          "slug": "dbgorilla",
+          "name": "DBGorilla",
+          "kind": "Database observability",
+          "website_url": "https://www.dbgorilla.com/",
+          "walkthrough": "Inspect ClickHouse query workload and cluster health; validate collector support for ClickHouse 25.8+.",
+          "license": "commercial",
+          "status": "planned",
+          "demo_url": null,
+          "description": "AI-assisted database operations, workload analysis and performance diagnostics. Commercial platform with a free tier."
         }
       ],
       "status": "planned"

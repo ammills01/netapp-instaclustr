@@ -138,5 +138,9 @@ window.TOOL_CAPABILITIES = {
   "kafcacheql": [
     "SQL filtering, joins and aggregations over Kafka topics",
     "Incremental local caching and offline querying"
+  ],
+  "dbgorilla": [
+    "AI-assisted workload and performance analysis",
+    "Database observability and diagnostic recommendations"
   ]
 };

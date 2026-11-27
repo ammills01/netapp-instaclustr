@@ -54,6 +54,17 @@
       "license": "open-source",
       "status": "planned",
       "demo_url": null
+    },
+    {
+      "slug": "dbgorilla",
+      "name": "DBGorilla",
+      "kind": "Database observability",
+      "website_url": "https://www.dbgorilla.com/",
+      "walkthrough": "Inspect ClickHouse query workload and cluster health; validate collector support for ClickHouse 25.8+.",
+      "license": "commercial",
+      "status": "planned",
+      "demo_url": null,
+      "description": "AI-assisted database operations, workload analysis and performance diagnostics. Commercial platform with a free tier."
     }
   ],
   "status": "planned"
